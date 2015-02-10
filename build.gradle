@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id "com.moowork.node" version "0.8"
+}
+
+node {
+  version = '0.12.0'
+  download = true
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.2.1'
+}
