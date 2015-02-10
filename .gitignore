@@ -1,2 +1,7 @@
 .gradle/
 build/
+node_modules/
+.build/
+grunt/
+.tmp/
+
